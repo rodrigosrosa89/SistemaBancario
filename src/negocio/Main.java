@@ -11,7 +11,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		inicializaSistemaBancario(); // criando algumas contas e clientes fictícios
+		inicializaSistemaBancario(); // criando algumas contas e clientes fictï¿½cios
 		
 		Scanner sc = new Scanner(System.in);
 		boolean continua = true;
@@ -32,7 +32,7 @@ public class Main {
 				if(cliente != null)
 					System.out.println(cliente.toString());
 				else
-					System.out.println("Cliente não encontrado!");
+					System.out.println("Cliente nÃ£o encontrado!");
 				
 				pulalinha();
 				break;
@@ -46,7 +46,7 @@ public class Main {
 				if(conta != null)
 					System.out.println(conta.toString());
 				else
-					System.out.println("Conta não encontrado!");
+					System.out.println("Conta nÃ£o encontrado!");
 				
 				pulalinha();
 				break;
@@ -63,7 +63,7 @@ public class Main {
 					System.out.println("Cliente ativado com sucesso!");
 				}
 				else
-					System.out.println("Cliente não encontrado!");
+					System.out.println("Cliente nÃ£o encontrado!");
 			
 				pulalinha();
 				break;
@@ -80,7 +80,7 @@ public class Main {
 					System.out.println("Cliente desativado com sucesso!");
 				}
 				else
-					System.out.println("Cliente não encontrado!");
+					System.out.println("Cliente nÃ£o encontrado!");
 				
 				pulalinha();
 				break;
@@ -111,11 +111,11 @@ public class Main {
 	}
 
 	/**
-	 * Imprime menu de opções do nosso sistema bancário
+	 * Imprime menu de opÃ§Ãµes do nosso sistema bancÃ¡rio
 	 */
 	private static void printMenu() {
 		
-		System.out.println("O que você deseja fazer? \n");
+		System.out.println("O que vocÃª deseja fazer? \n");
 		System.out.println("1) Consultar por um cliente");
 		System.out.println("2) Consultar por uma conta corrente");
 		System.out.println("3) Ativar um cliente");
@@ -126,8 +126,8 @@ public class Main {
 	}
 
 	/**
-	 * Método que cria e insere algumas contas e clientes no sistema do banco,
-	 * apenas para realização de testes manuais através do método main acima.
+	 * MÃ©todo que cria e insere algumas contas e clientes no sistema do banco,
+	 * apenas para realizaÃ§Ã£o de testes manuais atravÃ©s do mÃ©todo main acima.
 	 */
 	private static void inicializaSistemaBancario() {
 		// criando lista vazia de contas e clientes
